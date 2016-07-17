@@ -8,11 +8,6 @@ include_directories (${Boost_INCLUDE_DIR})
 
 set (SOURCE_FILES
     main.cpp
-    src/nn/Layer.cpp
-    src/nn/NeuralNet.cpp
-    src/nn/Neuron.cpp src/nn/Utils.cpp
-
-    thirdparty/json/json.cpp
 )
 
 add_executable (charles ${SOURCE_FILES})
