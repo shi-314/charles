@@ -152,4 +152,6 @@ inline vec3<T> unit_vec(const vec3<T>& v) {
     return (v / v.length());
 }
 
+typedef vec3<float> vec3f;
+
 #endif
